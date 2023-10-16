@@ -1,6 +1,6 @@
 # Cap 1: Introdução a Algoritmos
 
-## Resumo Pesquisa Binária
+## Pesquisa Binária
 
 - Pesquisa binária utiliza ‘array’ e só funciona em arrays ordenados.
 - Tempo de exeção Logarítimo O(Log n).
