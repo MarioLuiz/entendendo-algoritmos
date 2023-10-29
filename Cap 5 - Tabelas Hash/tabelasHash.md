@@ -24,9 +24,7 @@ servidor.
 
 No caso médio, as tabelas hash têm tempo de execução O(1) para tudo. Assim, O(1) é chamado de tempo constante.
 
-|  | Tabelas Hash
-(Caso médio) | Tabelas Hash
-(Pior caso) | Arrays | Listas encadeadas |
+|  | Tabelas Hash(Caso médio) | Tabelas Hash(Pior caso) | Arrays | Listas encadeadas |
 | --- | --- | --- | --- | --- |
 | Procura | O(1) | O(n) | O(1) | O(n) |
 | Inserção | O(1) | O(n) | O(n) | O(1) |
