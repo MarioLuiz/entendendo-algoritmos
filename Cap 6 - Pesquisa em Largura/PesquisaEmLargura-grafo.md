@@ -8,7 +8,8 @@
 
 Grafos são formados por vértices(também chamados de nós) e arestas, e um vértice pode ser diretamente conectado a muitos outros vértices, por isso os chamamos de vizinhos.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/051c2763-dcc9-4601-8bf0-c623948760b8/93cb9adc-4048-4e01-9744-106108db52d5/Untitled.png)
+![image](https://github.com/MarioLuiz/entendendo-algoritmos/assets/11471499/53f07897-f92c-4a33-adc5-17cf4fec3893)
+
 
 - Grafos não direcionados não contêm setas, e a relação acontece nos dois sentidos (Alex - Rama significa "Alex ficou com Rama e Rama Ficou com Alex").
 
@@ -25,7 +26,8 @@ Este algoritmo ajuda a responder a dois tipos de pergunta:
 - Não é possível acessar elementos aleatórios em uma fila.
 - É possivel duas operações na fila: enqueue (enfileirar) e dequeue (desenfileirar).
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/051c2763-dcc9-4601-8bf0-c623948760b8/f26d5260-7225-49b1-93eb-cf93553e67dd/Untitled.png)
+![image](https://github.com/MarioLuiz/entendendo-algoritmos/assets/11471499/853cfc04-fee5-4d2f-9bd2-f38bea19d057)
+
 
 - A fila é uma estrutura de dadso FIFO (Fist in, First Out) ‘Primeiro a entrar, Primeiro a sair’
 - A pilha é uma estrutura de dados LIFO (Last In, First Out) ‘Ultimo a entrar, Primeiro a sair’
