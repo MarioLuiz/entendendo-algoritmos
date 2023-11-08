@@ -36,3 +36,7 @@ Este algoritmo ajuda a responder a dois tipos de pergunta:
 
 - Como expressar uma relação do tipo“você -> bob”? Felizmente, você conhece uma estrutura de dados que lhe permite expressar relações: uma tabela hash!
 - Uma tabela hash lhe permite mapear uma chave a um valor. Nesse caso você deseja mapear um vértice a todos os seus vizinhos.
+
+## Tempo de execução
+
+A pesquisa em largura tem tempo de execução O(número de pessoas + número de arestas), que é frequentemente escrito como O(V+A) (V para número de vértices, A para número de arestas).
