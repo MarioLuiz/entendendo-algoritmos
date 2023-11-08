@@ -3,15 +3,15 @@
 - A pesquisa em largura lhe diz se há um caminho de X para Y
 - Se esse caminho existir, a pesquisa em largura lhe dará o caminho mínimo.
 - Se você tem um problema do tipo "encontre o menor X", tente modelar o seu problema utilizando grafos e use a pesquisa em largura para resolvê-lo.
+- Um dígrafo contém setas e as relações seguem a direção das setas (Rama -> Adit) significa “Rama deve sinheiro a Adit”.
+- Grafos não direcionados não contêm setas, e a relação acontece nos dois sentidos (Ross –Rachel ) significa “Ross namorou Rachel e Rachel namorou Ross”.
+- Você precisa vericar as pessoas na ordem em que elas foram adicionadas à lista de pesquisa. Portanto a lista de pesquisa deve ser uma fila; caso contrário, você não obterá o caminho mínimo.
 
 ## O que é um grafo ?
 
 Grafos são formados por vértices(também chamados de nós) e arestas, e um vértice pode ser diretamente conectado a muitos outros vértices, por isso os chamamos de vizinhos.
 
 ![image](https://github.com/MarioLuiz/entendendo-algoritmos/assets/11471499/53f07897-f92c-4a33-adc5-17cf4fec3893)
-
-
-- Grafos não direcionados não contêm setas, e a relação acontece nos dois sentidos (Alex - Rama significa "Alex ficou com Rama e Rama Ficou com Alex").
 
 ## Pesquisa em largura
 
