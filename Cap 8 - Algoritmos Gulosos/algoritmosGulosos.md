@@ -20,3 +20,12 @@ Como descobrir o menor conjunto de estações nas quais você pode transmitir e 
 2. Entre eles, escolha o conjunto com o menor número de estações que abranja todos os cinquenta estados.
 
 O problema neste caso é que o tempo para calcular cada possível subconjunto de estações é muito longo, uma vez que o tempo de execução é O(2^n), pois existem 2^n subconjuntos.
+
+## Algoritmos de aproximação
+
+Uma solução alternativa ao problema da cobertura de conjuntos seria um algoritmos de aproximação:
+
+1. Pegue a estação que abranja o maior número de estados que ainda não foram cobertos. Tudo bem se a estação abranger alguns estados que já foram cobertos.
+2. Repita isso até que todos os estados tenham sido cobertos.
+
+Algoritmos de aproximação são indicados quando é necessário muito tempo para calcular a solução exata.
